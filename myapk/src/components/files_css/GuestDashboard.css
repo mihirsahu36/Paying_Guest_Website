@@ -1,0 +1,80 @@
+/* GuestDashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header img {
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+    flex-grow: 1;
+  }
+  
+  .dashboard-header .logout-button {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .dashboard-info {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .dashboard-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dashboard-actions button {
+    width: 48%;
+  }
+  
+  .dialog-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-content .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .dialog-content .file-upload {
+    margin: 20px 0;
+  }
+  
+  .dialog-actions button {
+    margin-left: 10px;
+  }
+  
+  body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  

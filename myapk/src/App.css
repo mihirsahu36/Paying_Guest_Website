@@ -1,0 +1,35 @@
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dialog form div {
+  margin-bottom: 10px;
+}
+
+.dialog label {
+  display: inline-block;
+  width: 150px;
+}
+
+.dialog input[type="text"],
+.dialog input[type="number"] {
+  width: calc(100% - 160px);
+  padding: 5px;
+}
+
+.dialog input[type="file"] {
+  width: calc(100% - 160px);
+  padding: 5px;
+}
+
+.dialog button {
+  margin-right: 10px;
+}
